@@ -1,7 +1,8 @@
-function Day(){
+function Day({ title, text }){
     return(
         <div className="day">
-            <h2 style={{color: 'black'}}>Day</h2>
+            <h2 className="day-title">{title}</h2>
+            <p className="day-text">{text}</p>
         </div>
     );
 }
